@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Breze-Portfolio</title>
+    <script src="https://kit.fontawesome.com/45386da3f3.js" crossorigin="anonymous"></script>
+
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="images/lomgo.png" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+          </ul>
+          <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Front End Web Developer</p>
+          <h1>
+            Hi, I'm <span>Breeze</span><br />
+            from India
+          </h1>
+        </div>
+      </div>
+    </div>
+<!-- ------------------about--------------------- -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/me.png" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>Hi, I'm Aditya (e-name: Breeze), a passionate frontend web developer and a web 3 enthusiast. I spend my days crafting beautiful and user-friendly websites that provide seamless experiences. As a full-time NFT Degen, I'm constantly exploring the exciting world of non-fungible tokens and the endless possibilities they bring, along with blockchain.</p>
+
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><span>NFT Collaborations</span><br>Web3 NFT Collaborations and Project Management</li>
+                    <li><span>Web Development </span><br>Frontend User Interfaces</li>
+                    <li><span>Tech Admin</span><br>Technology Management</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+                <ul>
+                    <li><span>2022 - current</span><br>Manager in various projects</li>
+                    <li><span>2021 - 2022</span><br>Volunteer work in various Projects and Front end applications</li>
+                    <li><span>2018 - 2021</span><br>Discord Server manager and Moderator</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="education">
+                <ul>
+                    <li><span>2023</span><br>Pursuining engineering in Computer Science</li>
+                    <li><span>2022</span><br>Passed Senior Secondary  (9 CGPA)</li>
+                    <li><span>2020</span><br>Secondary and below</li>
+                </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ----------------------------services------------------------- -->
+<div id="services">
+
+<div class="container">
+<h1 class="sub-title">Services</h1>
+<div class="services-list">
+    <div>
+        <i class="fa-solid fa-code"></i>
+        <h2>NFT Community Management</h2> <br>
+        <p>Working closely at the community level, guiding the moderators and using the community suggestions for project's benefit. </p>
+        <!-- <a href="#">Learn More</a> -->
+    </div>
+    <div>
+        <i class="fa-solid fa-crop"></i>
+        <h2>NFT Collaborations</h2> <br>
+        <p>NFT project collaborations including big and exclisibvely accessible alphas and Bluechip Projects.</p>
+        <!-- <a href="#">Learn More</a> -->
+    </div>
+    <div>
+        <i class="fa-brands fa-apple"></i>
+        <h2>Front End Developer</h2> <br>
+        <p>Front end webdevelopment, Single page applications and UI/UX Design.</p>
+        <!-- <a href="#">Learn More</a> -->
+    </div>
+</div>
+</div>
+
+</div>
+
+<!-- -----------------------Portfolio--------------------------- -->
+
+<div id="portfolio">
+<div class="container">
+    <h1 class="sub-title">My Work</h1>
+    <div class="work-list">
+        <div class="work">
+            <img src="images/work-1.png">
+            <div class="layer">
+                <h3>Founder- IaconLabs</h3>
+                <p>The community is dedicated to exploring the endless possibilities of NFT technology and empowering artists and creators to showcase their unique talents to the world.</p>
+                <a href="https://iaconlabs.com/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="images/work-2.png">
+            <div class="layer">
+                <h3>Manager- Moonie Moo</h3>
+                <p>An original NFT collection from the creator of PAW Patrol, evolving into a Prime-Time Animated TV Series & Global Brand.</p>
+                <a href="https://mooniemoo.io/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="images/work-3.png">
+            <div class="layer">
+                <h3>Collab-Outreaching</h3>
+                <p>Web3 NFT collaborations, Community management and Tech Administration related works.</p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <a href="https://youtu.be/xvFZjo5PgG0" class="btn">See More</a>
+
+</div>
+</div>
+
+
+<!-- -------------------------Contact Form-------------------- -->
+
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title">Contact Me</h1>
+        <p><i class="fa-solid fa-paper-plane"></i>breezey@iaconlabs.com</p>
+        <p><i class="fa-solid fa-phone"></i>95190643xx</p>
+        <div class="social-icons">
+          <a href="https://twitter.com/0xbreezey"><i class="fa-brands fa-twitter"></i></a>
+          <a href="https://www.linkedin.com/in/aditya-chandra-yadav-44bb18234/"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://github.com/breezejod"><i class="fa-brands fa-github"></i></a>
+          <a href="https://www.instagram.com/breeze.wtf/"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+        <a href="#" download class="btn btn2">Download CV</a>
+      </div>
+      <div class="contact-right">
+        <form name="submit-to-google-sheet">
+          <input type="text" name="Name" placeholder="Your Name" required>
+          <input type="email" name="Email" placeholder="Your Email" required>
+          <textarea name="Message" rows="6" placeholder="Your Message" ></textarea>
+          <button type="submit" class="btn btn2">Submit</button>
+        </form>
+         <span id="msg"></span>
+      </div>
+    </div>
+  </div>
+  <div class="copyright">
+    <p>
+      © Copyright Breeze, Made with <i class="fa-solid fa-heart"></i>
+    </p>
+  </div>
+</div>
+
+
+<script>
+
+var tablinks = document.getElementsByClassName("tab-links");
+var tabcontents = document.getElementsByClassName("tab-contents");
+
+function opentab(tabname) {
+for (tablink of tablinks ) {
+    tablink.classList.remove("active-link");
+}
+for (tabcontent of tabcontents ) {
+    tabcontent.classList.remove("active-tab");
+}
+event.currentTarget.classList.add("active-link");
+document.getElementById(tabname).classList.add("active-tab");
+}
+
+</script>
+
+<script>
+
+var sidemenu = document.getElementById("sidemenu");
+
+function openmenu () {
+  sidemenu.style.right = "0";
+}
+function closemenu () {
+  sidemenu.style.right = "-200px";
+}
+
+</script>
+
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbyVQ14Njo8FHWZWK4DQ5keha8HNJFkAjzPU5lFDkW6gu6qMlMHkiV7Fe6oE8mplp5-pfg/exec'
+  const form = document.forms['submit-to-google-sheet']
+
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message sent successfully"
+        setTimeout(function(){
+          msg.innerHTML = ""
+        }, 5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+  </body>
+</html>
